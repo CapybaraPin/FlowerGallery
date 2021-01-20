@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!-- Déclaration des Meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="fleuristes, cueilleurs, vendeurs & passionnés" name="keywords">
+  <meta content="Vente & entretien de fleurs" name="description">
+
+  <!-- Titre de la page (Onglet) -->
+  <title>Flower Gallery · Vente de fleurs</title>
+
+  <!-- Ajout des polices Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Ajout des libraries CSS -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Ajout du fichier CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Ajout du favicon -->
+  <link rel="shortcut icon" href="images/tulip.png">
+</head>
+
+<body>
+
+  <!-- Début du menu de navigation -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+        <!-- Nemu de navigation -->
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Accueil</a></li>
+          <li><a href="#about" class="smoothScroll">À Propos</a></li>
+          <li><a href="#flower" class="smoothScroll">Nos Plantes</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Fin de la section "menu de navigation" -->
+
+
+  <!-- Début de la section header (Haut de page) -->
+  <div id="header" class="home">
+
+    <div class="container" >
+      <div class="header-content">
+        <!-- Titre avec une animation en javascript -->
+        <h1>Nous sommes <span class="typed"></span></h1>
+        <p>fleuristes, décorateurs, artistes</p>
+
+        <!-- Lien vers les différents réseaux -->
+        <ul class="list-unstyled list-social">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Fin de la section header (Haut de page) -->
+
+
+  <!-- Début de la section A Propos -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <!-- Image descriptive -->
+              <img src="images/flowers/principale.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+            <!-- Description de l'entretise -->
+            <p class="p-heading">Flower Gallery qu'est-ce que c'est ?</p>
+            <p class="p-description" >
+              
+              Notre site est une vitrine pour notre magasin, tout les bouquets présentés sont des exemples  et servent uniquement de repères par rapport à votre budget. <br><br>
+              De plus, tout au long de l'année, nous sélectionnons une large gamme de fleurs de saison, sans cesse renouvelée, issues de productions françaises associées à des variétés aussi extraordinaires venant d'autres horizons. 
+          
+
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin de la section A Propos -->
+
+  <!-- Début de la section nos plantes -->
+  <div id="flower" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Nos Plantes</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="flower-list">
+            <!-- Selection des différents types de plantes -->
+            <ul class="nav list-unstyled" id="flower-flters">
+              <li class="filter filter-active" data-filter=".all">Tout nos produits</li>
+              <li class="filter" data-filter=".5075">25-50 €</li>
+              <li class="filter" data-filter=".75100">50-75 €</li>
+              <li class="filter" data-filter=".100125">75-100 €</li>
+              <li class="filter" data-filter=".125150">100-125 €</li>
+              <li class="filter" data-filter=".150200">125-150 €</li>
+            </ul>
+
+          </div>
+          <!-- Toutes les plantes en fonction de la catégorie -->
+          <div class="flower-container">
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 5075">
+              <a class="popup-img" href="images/flowers/1.jpg">
+                <img src="images/flowers/1.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 5075">
+              <a class="popup-img" href="images/flowers/2.jpg">
+                <img src="images/flowers/2.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 5075">
+              <a class="popup-img" href="images/flowers/3.jpg">
+                <img src="images/flowers/3.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 75100">
+              <a class="popup-img" href="images/flowers/4.jpg">
+                <img src="images/flowers/4.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 75100">
+              <a class="popup-img" href="images/flowers/5.jpg">
+                <img src="images/flowers/5.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 75100">
+              <a class="popup-img" href="images/flowers/6.jpg">
+                <img src="images/flowers/6.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 100125">
+              <a class="popup-img" href="images/flowers/7.jpg">
+                <img src="images/flowers/7.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 100125">
+              <a class="popup-img" href="images/flowers/8.jpg">
+                <img src="images/flowers/8.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 100125">
+              <a class="popup-img" href="images/flowers/9.jpg">
+                <img src="images/flowers/9.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 125150">
+              <a class="popup-img" href="images/flowers/10.jpg">
+                <img src="images/flowers/10.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 125150">
+              <a class="popup-img" href="images/flowers/11.jpg">
+                <img src="images/flowers/11.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 125150">
+              <a class="popup-img" href="images/flowers/12.jpg">
+                <img src="images/flowers/12.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 150200">
+              <a class="popup-img" href="images/flowers/13.jpg">
+                <img src="images/flowers/13.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 150200">
+              <a class="popup-img" href="images/flowers/14.jpg">
+                <img src="images/flowers/14.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 flower-thumbnail all 150200">
+              <a class="popup-img" href="images/flowers/15.jpg">
+                <img src="images/flowers/15.jpg" alt="img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <p>
+     <b>Les exemples ci-dessus, non contractuels, servent uniquement de repères par rapport à votre budget.</b> 
+    </p>
+  </div>
+  <!-- Fin de la section nos plantes -->
+
+  <!-- Début de la section contact -->
+
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">CONTACTEZ-NOUS</h2>
+
+              <ul class="contact-details">
+                <li><span>6 Boulevard Henri de Jouvenel</span></li>
+                <li><span>Brive-La-Gaillarde, France</span></li>
+                <li><span>+33 05 55 87 38 50</span></li>
+                <li><span>ce.0190010h@ac-limoges.fr</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Le message a bien étais envoyer !</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" class="form-control" placeholder="Votre nom" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Votre E-Mail" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Sujet" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" rows="12" placeholder="Votre message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" onclick="alert('Erreur : Impossible d utiliser le formulaire de contact!')" value="Envoyer le message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin de la section contact -->
+
+
+  <!-- Début de la section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="https://www.debeaulieu-paris.com/"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+        </ul>
+
+      </div>
+      <!-- Section Anti copy -->
+      <p>&copy; <script>document.write(new Date().getFullYear());</script> Tous les droits sont réservé. CapybaraPin#9393</p>
+
+    </div>
+  </div>
+  <!-- Fin de la section footer -->
+
+  <!-- Ajout des Libraries JavaScript -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Ajout du fichier Javascript -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
